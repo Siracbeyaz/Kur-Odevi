@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <header class="h2container"><h2>Exchange</h2></header>
+        <div class="button" id="buttoncontainer">
+            <button id="USD" onclick="rateUSD()">USD</button>
+            <button id="EUR" onclick="rateEUR()">EUR</button>
+            <button id="GBP" onclick="rateGBP()">GBP</button>
+        </div>
+        <div>
+            <form id="form">
+                <label for="currentrate" id="labelcurrent">Currant Rate:</label>
+                <input type="" id="current" name="current" readonly><br>
+                <label for="amount" id="labelamount">Amount:</label>
+                <input type="" id="amount" name="amount"><br>
+                <label for="result" id="labelresult">Result:</label>
+                <input type="" id="result" name="result" readonly><br><br>
+
+
+                <button id="calculate" onclick="calculate()" value="calculate">Calculate</button>
+                <button id="Clear" onclick="clear()" value="clear">Clear</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
